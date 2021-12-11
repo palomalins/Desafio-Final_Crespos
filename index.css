@@ -1,0 +1,1232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Playfair + Display & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 400vh;
+}
+
+.fundo{
+    width: 100%;
+    height: 90vh;
+    background-image: url("./Assets/cabeludo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    height: 87px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+}
+
+.logo{
+    width: 90px;
+    height: 50px;
+}
+
+.list{
+    width: 720px;
+    height: 22px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: #9767A9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sumario:hover{
+    cursor: pointer;
+    color:#9767A9;
+    font-weight: bold;
+}
+
+.busca{
+    height: 25px;
+    width: 150px;
+    position: relative;
+    border-color: #9767A9;
+    border: 2px solid #9767A9;
+    border-radius: 50px;
+    padding-left: 27px;
+    outline:none;
+}
+
+.lupa{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-left: 46.5%;
+
+}
+
+.redes{
+    height: 87px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+.titulo{
+    width: 100%;
+    height: 300px;
+    background: #9767A9;
+    margin-top: 41.5%;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+.chamada{
+    width: 600px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+h1{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.caminho{
+    width: 600px;
+    height: 270px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dicas{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 200px;
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.sabe{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 780px; 
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    height: 650vh;
+    width: 100%;
+    
+}
+
+.box-mother{
+    width: 100%;
+    height: 500vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.conselhos-espelho{
+    width: 490px;
+    height: 700px;
+    margin-top: 250px;
+    margin-left: 90px;
+    position: absolute; 
+    display: flex;
+}
+
+.espelho{
+    width: 500px;
+    height: 450px;
+
+}
+
+.title-espelho{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-espelho{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-espelho{
+    width: 440px;
+    height: 400px;
+    background:#9767A9;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 25px;
+}
+
+.conselhos-maju{
+    width: 490px;
+    height: 800px;
+    margin-left: 50%;
+    margin-top: 500px;
+    display: flex;
+    position: absolute;
+}
+
+.maju{
+    width: 600px;
+    height: 450px;
+
+}
+
+.title-maju{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-maju{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-maju{
+    width: 430px;
+    height: 390px;
+    background:#9767A9;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 60px;
+}
+
+
+.conselhos-praia{
+    width: 490px;
+    height: 800px;
+    display: flex;
+    margin-top: 1050px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.praia{
+    width: 600px;
+    height: 450px;
+
+}
+
+.title-praia{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-praia{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-praia{
+    width: 450px;
+    height: 290px;
+    background:#9767A9;
+    position: absolute; 
+    margin-top: 360px;
+    margin-left: 45px; 
+}
+
+.conselhos-rainha{
+    width: 490px;
+    height: 800px;
+    display: flex;
+    margin-top: 1350px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.rainha{
+    width: 600px;
+    height: 450px;
+
+}
+
+.title-rainha{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-rainha{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-rainha{
+    width: 500px;
+    height: 290px;
+    background:#9767A9;
+    position: absolute; 
+    margin-top: 380px;
+    margin-left: 20px; 
+}
+
+.conselhos-raizes{
+    width: 490px;
+    height: 800px;
+    display: flex;
+    margin-top: 1750px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.raizes{
+    width: 840px;
+    height: 450px;
+
+}
+
+.title-raizes{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-raizes{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-raizes{
+    width: 520px;
+    height: 310px;
+    background:#9767A9;
+    position: absolute; 
+    margin-top: 380px;
+    margin-left: 15px; 
+}
+
+.conselhos-fases{
+    width: 490px;
+    height: 800px;
+    display: flex;
+    margin-top: 2050px;
+    margin-left: 675px;
+    position: absolute;
+}
+
+.fases{
+    width: 800px;
+    height: 450px;
+
+}
+
+.title-fases{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-fases{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-fases{
+    width: 520px;
+    height: 310px;
+    background:#9767A9;
+    position: absolute; 
+    margin-top: 380px;
+    margin-left: 10px; 
+}
+
+.conselhos-orgulho{
+    width: 490px;
+    height: 800px;
+    display: flex;
+    margin-top: 2500px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.orgulho{
+    width: 800px;
+    height: 450px;
+
+}
+
+.title-orgulho{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-orgulho{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.info-orgulho{
+    width: 520px;
+    height: 290px;
+    background:#9767A9;
+    position: absolute; 
+    margin-top: 380px;
+    margin-left: 10px; 
+}
+
+.cacho{
+    width: 450px;
+    height: 60px;
+    margin-top: 2900px;
+    margin-left: 740px;
+}
+
+.galeria{
+    width: 98%;
+    height:115vh;
+    margin-left: 19px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 160px;
+}
+
+.rei{
+    width: 280px;
+    height: 463px;
+}
+
+.byonce{
+    width: 210px;
+    height: 220px;
+    margin-left: 10px;
+}
+
+.michael{
+    width: 210px;
+    height: 220px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 240px;
+}
+
+.grace-jones{
+    height: 466px;
+    width: 210px;
+    margin-left: 10px;
+}
+
+.estiloso{
+    height: 695px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.imagens-do-canto{
+    height: 699px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.menina-com-trancas{
+    height: 220px;
+    width: 280px;
+}
+
+.homem-barbudo{
+    height: 470px;
+    width: 280px;
+    margin-top: 5px;
+}
+
+.imagens-inferiores{
+    height: 250px;
+    width: 720px;
+    position: absolute;
+    margin-top: 475px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gloria-maria{
+    height: 220px;
+    width: 280px;
+}
+
+.snoopy{
+    height: 220px;
+    width: 210px;
+}
+
+.tais{
+    height: 220px;
+    width: 210px;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background: #9767A9;
+}
+
+.referencias{
+    width: 70%;
+    height: 100%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.layout{
+    height: 35%;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.anterior{
+    height: 80%;
+    width: 120px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.left{
+    height: 25px;
+    width: 27px;
+
+}
+
+.anterior:hover{
+    background: #AC95BB;
+    cursor: pointer;
+}
+
+.topo{
+    height: 80%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff;  
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.top{
+    height: 25px;
+    width: 27px;
+}
+
+.topo:hover{
+    background: #AC95BB;
+    cursor: pointer;
+}
+
+.proxima{
+    height: 80%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff;  
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.right{
+    height: 25px;
+    width: 27px;
+}
+
+.proxima:hover{
+    background: #AC95BB;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 380px){
+    body{
+        height: 190vh;
+    }
+
+    .fundo{
+        background-image: url("./Assets/cabeludo@2x.png");
+        background-repeat: no-repeat;
+        background-size: 650px;
+        width: 385px;
+        height: 380px;
+    }
+
+    .menu{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .logo{
+        height: 30px;
+        width: 50px;
+        margin-left: 160px;
+    }
+
+    nav{
+        background-image: url("./Assets/Menu@2x.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60px;
+        height: 100%;
+        position: absolute;
+    }
+
+    .list{
+        display: none;
+    }
+
+    input{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    .lupa{
+        display: none;
+    }
+
+    .dicas{
+        margin-top: 80px;
+        margin-left: 20px;
+        width: 140px;
+        font-size: 35px;
+    }
+
+    .sabe{
+        margin-top: 170px;
+        margin-left: 20px;
+        width: 230px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .titulo{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chamada{
+        margin-top: 120px;
+        margin-left: 30px;
+        width: 68%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    .caminho{
+        margin-top: 0px;
+        margin-left: 10px;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .caminho p{
+        margin-top: 20px;
+    }
+
+    .conselhos-espelho{
+        display: flex;
+        margin-top: 130px;
+        margin-left: 0px;
+        justify-content: left;
+    }
+
+    .espelho{
+        width: 300px;
+        height: 200px;
+        margin-top: 160px;
+        margin-left: 50px;
+        position: absolute;
+    }
+
+    .title-espelho{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .text-espelho{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    
+    .info-espelho{
+        width: 80%;
+        height: 430px;
+        background:#9767A9;
+        margin-top: 300px;
+        margin-left: 0px; 
+    }
+
+    .conselhos-maju{
+        width: 490px;
+        height: 800px;
+        margin-left: 0%;
+        margin-top: 500px;
+        display: flex;
+        position: absolute;
+    }
+
+    .maju{
+        margin-top: 400px;
+        margin-left: 10px;
+        width: 350px;
+        height: 300px;
+
+    }
+
+    .title-maju{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .text-maju{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 20px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .info-maju{
+        width: 79%;
+        height: 400px;
+        background:#9767A9;
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 0px;
+    }
+
+    
+    .conselhos-praia{
+        width: 490px;
+        height: 600px;
+        display: flex;
+        margin-left: 0px;
+        margin-top: 1050px;
+        position: absolute;
+    }
+
+    .praia{
+        height: 300px;
+        width: 320px;
+        margin-left: 30px;
+        margin-top: 520px;
+    }
+
+    .info-praia{
+        width: 78%;
+        height: 350px;
+        margin-top: 800px;
+        margin-left: 0px;
+    }
+        
+    .title-praia{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .text-praia{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 20px;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+
+    .conselhos-rainha{
+    width: 450px;
+    height: 800px;
+    display: flex;
+    margin-top: 2220px;
+    margin-left: 0px;
+    position: absolute;
+    }
+
+        
+    .rainha{
+        width: 350px;
+        height: 400px;
+        margin-left: 20px;
+
+    }
+
+    .title-rainha{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .text-rainha{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+
+    .info-rainha{
+        width: 84%;
+        height: 370px;
+        background:#9767A9;
+        position: absolute; 
+        margin-top: 350px;
+        margin-left: 0px; 
+    }
+
+    .conselhos-raizes{
+        width: 100%;
+        margin-top: 2050px;
+        margin-left: 0px;
+    }
+
+    .raizes{
+        height: 300px;
+        width: 350px;
+        margin-left: 20px;
+        margin-top:900px;
+    }
+
+    .info-raizes{
+        width: 100%;
+        height: 400px;
+        margin-top: 1100px;
+    }
+    
+    .text-raizes{
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 20px;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+
+    .title-raizes{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    
+    .conselhos-fases{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        margin-top: 3560px;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    .fases{
+        width: 320px;
+        height: 350px;
+        margin-left: 30px;
+    }
+
+    .title-fases{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .text-fases{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 20px;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+
+    .info-fases{
+        width: 99%;
+        height: 360px;
+        background:#9767A9;
+        position: absolute; 
+        margin-top: 300px;
+        margin-left: 10px; 
+    }
+
+
+    .conselhos-orgulho{
+        width: 100%;
+         margin-top: 4240px;
+         margin-left: 0px;
+    }
+
+        
+    .orgulho{
+        width: 330px;
+        height: 320px;
+        margin-left: 20px;
+    }
+
+    .title-orgulho{
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .text-orgulho{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin-left: 20px;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+
+    .info-orgulho{
+        width: 100%;
+        height: 290px;
+        background:#9767A9;
+        position: absolute; 
+        margin-top: 270px;
+        margin-left:0px; 
+    }
+
+    .cacho{
+        margin-left: 35px;
+        margin-top: 4800px;
+        width: 300px;
+        height:200px;
+    }
+    
+    .galeria{
+        width: 98%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap; 
+        margin-top: 160px;
+    }
+
+    .rei{
+        width: 130px;
+        height: 205px;
+        margin-left: 35px;
+        margin-top: 2350px;
+        position: absolute;
+    }
+
+    .byonce{
+        width: 60px;
+        height: 75px;
+        margin-left: 175px;
+        margin-top: 2350px;
+        position: absolute;
+    }
+
+    .michael{
+        width: 60px;
+        height: 75px;
+        position: absolute;
+        margin-left: 245px;
+        margin-top: 2350px;
+    }
+
+    .grace-jones{
+        height: 226px;
+        width: 130px;
+        position: absolute;
+        margin-top: 2765px;
+        margin-left: 180px;
+    }
+
+    .estiloso{
+        height: 147px;
+        width: 62px;
+        position: absolute;
+        margin-top: 2765px;
+        margin-left: 35px;
+    }
+
+    .imagens-do-canto{
+        height: 0px;
+        width: 0px;
+    }
+
+    .menina-com-trancas{
+        height: 69px;
+        width: 65px;
+        margin-left: 25px;
+        position: absolute;
+        margin-top: 2920px;
+        
+    }
+
+    .homem-barbudo{
+        height: 147px;
+        width: 68px;
+        margin-left: 95px;
+        margin-top: 2765px;
+        position: absolute;
+    }
+
+    .imagens-inferiores{
+        height: 0px;
+        width: 0px;
+        
+    }
+
+    .gloria-maria{
+        height: 190px;
+        width: 270px;
+        margin-top: 2090px;
+        margin-left: 35px;
+    }
+
+    .snoopy{
+        height: 69px;
+        width: 65px;
+        margin-left: 109px;
+        position: absolute;
+        margin-top: 2445px;
+    }
+
+    .tais{
+        height: 120px;
+        width: 130px;
+        margin-top: 1960px;
+        margin-left: 175px;
+        position: absolute;
+    }
+
+    footer{
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        margin-top: 2420px;
+    }
+
+    .referencias{
+        display: none;
+    }
+
+    .layout{
+    display: none;
+    }
+
+    a{
+    display: none;
+    }
+
+    .anterior p{
+        display: none;
+    }
+
+    .proxima p{
+        display: none;
+    }
+
+    .topo p{
+        display: none;
+    }
+
+    .left{
+        height: 15px;
+        width: 15px;
+    }
+
+    .anterior{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #9767A9;
+        display: flex;
+        justify-content: center;
+        margin-left: 220px;
+    }
+
+    .top{
+        height: 15px;
+        width: 15px;
+    }
+
+    .topo{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #9767A9;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right{
+        height: 15px;
+        width: 15px;
+    }
+
+    .proxima{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #9767A9;
+        display: flex;
+        justify-content: center;
+    }
+}
